@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap form</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+
+      <div class="container inner">
+        <div class="row">
+          <div class="col-md-12 newIssue">
+            <h2 title>JS Issue Tracker</h2>
+
+            <form>
+              <h3>Add a New Issue</h3>
+              <br>
+              <p>Issue</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-headphones" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" placeholder="Describe the Issue...">
+                </div>
+              </div><!-- /form-group -->
+
+              <p>Severity</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" placeholder="Low">
+                </div>
+              </div><!-- /form-group -->
+
+              <p>Assigned to:</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-address-book-o" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" placeholder="Enter Person Responsible for">
+                </div>
+              </div><!-- /form-group -->
+
+              <button type="button" class="btn btn-primary" id="track">Track Issue</button>
+            </form>
+
+            <div id="issue-call" class="issue">
+              <h4>Issue ID: a8633e85-b43d-5af1-ab64-358ac6d0e1e</h4>
+              <button type="button" class="btn btn-info open">open</button>
+              <h2>Teaching stuff</h2>
+              <p><i class="fa fa-clock-o" aria-hidden="true"></i>high</p>
+              <p><i class="fa fa-address-book-o" aria-hidden="true"></i>Paolo</p>
+
+              <button type="button" class="btn btn-warning issue-btn" id="close">Close</button>
+              <button type="button" class="btn btn-danger issue-btn" id="delete">Delete</button>
+            </div><!-- /issue -->
+
+            <div id="issue-call2" class="issue2">
+              <h4>Issue ID: a8633e85-b43d-5af1-ab64-358ac6d0e1e</h4>
+              <button type="button" class="btn btn-info open">open</button>
+            </div><!-- /issue -->
+
+          </div><!-- /col -->
+        </div><!-- /row -->
+      </div><!--/container inner  -->
+
+    </div><!-- /container -->
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

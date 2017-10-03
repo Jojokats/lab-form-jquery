@@ -1,0 +1,33 @@
+.container {
+  background-color: #fff;
+  padding: 20px 70px; }
+
+.inner {
+  padding: 1.8rem;
+  margin: 0 auto; }
+
+form {
+  background-color: #f6f4f4;
+  margin-bottom: 2.5rem;
+  border: 1px solid #e6e6e6;
+  padding: 30px;
+  margin-top: 1.2rem; }
+
+.issue {
+  border: 2px solid #f75454;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 1rem; }
+  .issue h2,
+  .issue h4 {
+    margin-bottom: 15px; }
+  .issue button[type="button"] {
+    margin-bottom: 15px; }
+  .issue button.issue-btn {
+    padding: 7px 25px;
+    margin-right: 8px; }
+
+.issue2 {
+  border: 2px solid #f7ad1b;
+  padding: 20px;
+  border-radius: 5px; }
